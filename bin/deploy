@@ -3,4 +3,4 @@
 ./gradlew shadowJar
 cp build/libs/hugb_hello_world-all.jar /tmp
 cd /tmp
-java -jar hugb_hello_world-all.jar
+java -jar hugb_hello_world-all.jar &

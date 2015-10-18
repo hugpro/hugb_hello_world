@@ -45,6 +45,7 @@ dependencies {
 
     // Add Java API client for The Internet Chuck Norris Database
     compile 'net.joningi:icndb-java-api:1.0'
+    compile 'com.sparkjava:spark-core:2.3'
 }
 
 jar {
