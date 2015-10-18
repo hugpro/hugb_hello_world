@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./gradlew jar
+./gradlew compileJava
 cp build/libs/hugb_hello_world.jar /tmp
 cd /tmp
 java -jar hugb_hello_world.jar
