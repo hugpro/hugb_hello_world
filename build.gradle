@@ -31,6 +31,9 @@ dependencies {
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:4.11'
+
+    // Add Java API client for The Internet Chuck Norris Database
+    compile 'net.joningi:icndb-java-api:1.0'
 }
 
 jar {
