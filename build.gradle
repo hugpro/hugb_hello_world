@@ -7,19 +7,9 @@
  * user guide available at http://gradle.org/docs/2.1/userguide/tutorial_java_projects.html
  */
 
-buildscript {
-  repositories {
-    jcenter()
-  }
-  dependencies {
-    classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.2'
-  }
-}
-
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'application'
-apply plugin: 'com.github.johnrengelman.shadow'
 
 
 mainClassName = "com.bangsapabbi.chuckjoke.Joker"
