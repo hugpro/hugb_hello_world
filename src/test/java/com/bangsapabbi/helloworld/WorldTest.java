@@ -1,14 +1,14 @@
 package com.bangsapabbi.helloworld;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 public class WorldTest {
 
     @Test
-    public void greetResultsInHello() {
+    public void greetContainsChuck() {
         World world = new World();
-        assertEquals("Hello world!", world.greet()); }
-
+        assertTrue(world.greet().contains("Chuck"));
+    }
 }
